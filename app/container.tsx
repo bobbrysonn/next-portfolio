@@ -24,10 +24,10 @@ export default function App() {
 
                     {/* Social media icons */}
                     <ul className='flex items-center space-x-2 sm:space-x-5 mr-6 my-4 '>
-                        <li><a href="https://twitter.com/bobbrysonn" className='transition ease-in duration-150'><AiOutlineTwitter size={24} className="hover:opacity-100 opacity-50" /></a></li>
-                        <li><a href="" className='transition ease-in duration-150'><GrInstagram size={24} className="hover:opacity-100 opacity-50" /></a></li>
-                        <li><a href="" className='transition ease-in duration-150'><FiDribbble size={24} className="hover:opacity-100 opacity-50" /></a></li>
-                        <li><a href="" className='transition ease-in duration-150'><AiOutlineGithub size={24} className="hover:opacity-100 opacity-50" /></a></li>
+                        <li><a href="https://twitter.com/bobbrysonn" target="_blank" className='transition ease-in duration-150'><AiOutlineTwitter size={24} className="hover:opacity-100 opacity-50" /></a></li>
+                        <li><a href="https://www.instagram.com/bobbrysonn" target="_blank" className='transition ease-in duration-150'><GrInstagram size={24} className="hover:opacity-100 opacity-50" /></a></li>
+                        <li><a href="https://dribbble.com/bobbrysonn" target="_blank" className='transition ease-in duration-150'><FiDribbble size={24} className="hover:opacity-100 opacity-50" /></a></li>
+                        <li><a href="https://github.com/bobbrysonn" target="_blank" className='transition ease-in duration-150'><AiOutlineGithub size={24} className="hover:opacity-100 opacity-50" /></a></li>
                     </ul>
 
                     {/* Email me */}
