@@ -11,6 +11,12 @@ export const metadata: Metadata = {
   authors: { name: "Bob Moriasi" },
   keywords: ["Bob", "Moriasi", "Ongare", "Bryson", "personal", "portfolio", "student"],
   robots: { index: true, follow: true },
+  icons: [
+    { rel: "icon", type: "image/png", sizes: "16x16", url: "/favicon-16x16.png" },
+    { rel: "icon", type: "image/png", sizes: "32x32", url: "/favicon-32x32.png" },
+    { rel: "apple-touch-icon", type: "image/png", sizes: "180x180", url: "/apple-touch-icon.png" },
+    { rel: "manifest", url: "/site.webmanifest" }
+  ]
 }
 
 export default function RootLayout({
