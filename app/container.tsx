@@ -1,7 +1,6 @@
 import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 import { FiDribbble } from "react-icons/fi";
 import { GrInstagram } from "react-icons/gr";
-import Image from "next/image";
 
 export default function App() {
     return (
